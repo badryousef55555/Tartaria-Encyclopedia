@@ -94,7 +94,7 @@
 ## الجزء الثالث — الحكم والسياسة والمجتمع
 
 ### الباب السابع — السلطة والدول والمؤسسات
-- العائلات 121–127 مسودات فهرسة؛ غير معتمدة.
+- العائلات 121–128 مسودات فهرسة؛ غير معتمدة.
 - [العائلة 121 — السلطة السياسية ونظم الحكم وتشكّل الدول](../catalog/part-03/chapter-07/family-121-political-authority-systems-of-government-and-state-formation.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
 - [العائلة 122 — النخب السياسية وشبكات النفوذ والوساطة في الحكم](../catalog/part-03/chapter-07/family-122-political-elites-networks-of-influence-and-governance-brokers.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
 - [العائلة 123 — الإدارة العامة والدواوين والبيروقراطية الحكومية](../catalog/part-03/chapter-07/family-123-public-administration-diwan-bureaucracy-and-government-offices.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
@@ -102,3 +102,4 @@
 - [العائلة 125 — القضاء والمؤسسات القضائية وتطور المحاكم](../catalog/part-03/chapter-07/family-125-judiciary-courts-and-historical-judicial-institutions.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
 - [العائلة 126 — الحكم المحلي والإدارة الإقليمية والسلطات البلدية](../catalog/part-03/chapter-07/family-126-local-government-regional-administration-and-municipal-authorities.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
 - [العائلة 127 — الخلافة السياسية والوراثة وتداول السلطة](../catalog/part-03/chapter-07/family-127-political-succession-hereditary-rule-and-transfer-of-power.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
+- [العائلة 128 — البلاط والمؤسسات الملكية ومراسم السلطة](../catalog/part-03/chapter-07/family-128-royal-courts-palatial-institutions-and-ceremonies-of-power.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
