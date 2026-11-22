@@ -89,3 +89,10 @@
 - [العائلة 118 — أدبيات الرحلات وتقارير الاستكشاف واليوميات والمسارات التاريخية](../catalog/part-02/chapter-06/family-118-travel-accounts-expedition-journals-and-route-records.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
 - [العائلة 119 — الرسوم الهندسية والتصميمات والمخططات التقنية التاريخية](../catalog/part-02/chapter-06/family-119-historical-engineering-drawings-designs-and-technical-plans.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
 - [العائلة 120 — كتابة التاريخ وتطور التأريخ ومناهج المؤرخين](../catalog/part-02/chapter-06/family-120-historiography-historical-writing-and-historical-methods.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
+
+
+## الجزء الثالث — الحكم والسياسة والمجتمع
+
+### الباب السابع — السلطة والدول والمؤسسات
+- العائلات 121–121 مسودات فهرسة؛ غير معتمدة.
+- [العائلة 121 — السلطة السياسية ونظم الحكم وتشكّل الدول](../catalog/part-03/chapter-07/family-121-political-authority-systems-of-government-and-state-formation.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
