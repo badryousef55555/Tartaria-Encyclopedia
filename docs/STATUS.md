@@ -94,7 +94,8 @@
 ## الجزء الثالث — الحكم والسياسة والمجتمع
 
 ### الباب السابع — السلطة والدول والمؤسسات
-- العائلات 121–123 مسودات فهرسة؛ غير معتمدة.
+- العائلات 121–124 مسودات فهرسة؛ غير معتمدة.
 - [العائلة 121 — السلطة السياسية ونظم الحكم وتشكّل الدول](../catalog/part-03/chapter-07/family-121-political-authority-systems-of-government-and-state-formation.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
 - [العائلة 122 — النخب السياسية وشبكات النفوذ والوساطة في الحكم](../catalog/part-03/chapter-07/family-122-political-elites-networks-of-influence-and-governance-brokers.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
 - [العائلة 123 — الإدارة العامة والدواوين والبيروقراطية الحكومية](../catalog/part-03/chapter-07/family-123-public-administration-diwan-bureaucracy-and-government-offices.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
+- [العائلة 124 — المجالس السياسية والتمثيل والتشاور وصنع القرار](../catalog/part-03/chapter-07/family-124-political-councils-representation-consultation-and-decision-making.md) — 40 فصلاً في خمسة محاور؛ مسودة غير معتمدة.
