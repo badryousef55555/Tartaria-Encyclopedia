@@ -83,3 +83,17 @@
 - تظل الفصول التسعة مسودات، ولا تتحول إلى مواد معتمدة إلا بموافقة صريحة.
 
 ---
+
+
+## روابط الفصول المنجزة
+1. [المعرفة الخفية والشرعية السياسية في التاريخ الإسلامي](../volumes/10_politics_legitimacy_history/10_01_hidden_knowledge_political_legitimacy.md)
+2. [التنبؤات السلطانية وتثبيت الحكم أو منازعته](../volumes/10_politics_legitimacy_history/10_02_sultanic_predictions.md)
+3. [الرموز العددية في الدعاية السياسية](../volumes/10_politics_legitimacy_history/10_03_numerical_symbols_political_propaganda.md)
+4. [الجفر في سياقات الدول والسلالات الحاكمة](../volumes/10_politics_legitimacy_history/10_04_jafr_dynasties_states.md)
+5. [التصورات الأخروية والحركات المهدوية](../volumes/10_politics_legitimacy_history/10_05_eschatology_mahdi_movements.md)
+6. [الجفر في التاريخ العثماني ومروياته السياسية](../volumes/10_politics_legitimacy_history/10_06_jafr_ottoman_political_narratives.md)
+7. [الجفر في المغرب ومصر والشام وإيران](../volumes/10_politics_legitimacy_history/10_07_regional_reception.md)
+8. [توظيف النبوءات في الأزمات والثورات والتحولات](../volumes/10_politics_legitimacy_history/10_08_prophecy_crisis_revolution.md)
+9. [دراسة مقارنة لوظائف الجفر السياسية وحدود الأدلة](../volumes/10_politics_legitimacy_history/10_09_comparative_political_functions.md)
+
+**حالة التنفيذ:** أُنشئت الفصول التسعة وأعيد جلبها للتحقق من العناوين والمحتوى. هذه صياغة بحثية تأسيسية مقارنة، وتظل مسودة غير معتمدة علمياً نهائياً إلى حين استكمال التحقيق المرجعي والنصي.
