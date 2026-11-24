@@ -1,109 +1,34 @@
-name: Build Awfaq Encyclopedia ZIP
+name: Build Awfaq Encyclopedia HTML
 
 on:
   push:
     branches:
       - awfaq-talismans-encyclopedia
+    paths:
+      - 'projects/awfaq-talismans/volumes/**'
+      - 'projects/awfaq-talismans/build_html.py'
+      - '.github/workflows/package-awfaq-encyclopedia.yml'
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  package:
+  build-html:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source branch
+      - name: Checkout encyclopedia source
         uses: actions/checkout@v4
         with:
           ref: awfaq-talismans-encyclopedia
 
-      - name: Build and verify curated archive
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          from zipfile import ZipFile, ZIP_DEFLATED
-          
-          source = Path("projects/awfaq-talismans/volumes")
-          output_dir = Path("dist")
-          output_dir.mkdir(exist_ok=True)
-          archive = output_dir / "موسوعة-الأوفاق-والطلاسم-14-عائلة.zip"
-          root = "موسوعة-الأوفاق-والطلاسم"
-          
-          families = [
-              ("01-concepts-origins", "01-المفاهيم-والمصطلحات-والنشأة"),
-              ("02-history-of-wafqs", "02-تاريخ-الأوفاق-والمربعات-العددية"),
-              ("03-mathematical-structure", "03-الرياضيات-والبنية-العددية-للأوفاق"),
-              ("04-letters-abjad-symbols", "04-علم-الحروف-والأبجد-والرموز"),
-              ("05-amulets-talismans", "05-الطلاسم-والتمائم-والأحراز"),
-              ("06-names-symbols-seals", "06-الأسماء-والرموز-والأختام"),
-              ("07-cosmology-correspondences", "07-الكوسمولوجيا-والمراسلات-الكونية"),
-              ("08-comparative-civilizations", "08-التقاليد-الحضارية-المقارنة"),
-              ("09-islamic-traditions", "09-الأوفاق-والطلاسم-في-التراث-الإسلامي"),
-              ("10-figures-works-schools", "10-الأعلام-والمؤلفات-والمدارس"),
-              ("11-manuscripts-texts-editing", "11-المخطوطات-والنصوص-والتحقيق"),
-              ("12-material-objects-practices", "12-القطع-والآثار-والممارسات-المادية"),
-              ("13-modern-reception-popular-culture", "13-الاستقبال-الحديث-والثقافة-الشعبية"),
-              ("14-criticism-edition-glossaries-indexes", "14-النقد-والتحقيق-والمعاجم-والفهارس"),
-          ]
-          
-          expected_dirs = {src for src, _ in families}
-          actual_dirs = {p.name for p in source.iterdir() if p.is_dir()}
-          if expected_dirs - actual_dirs:
-              raise SystemExit(f"Missing family directories: {sorted(expected_dirs - actual_dirs)}")
-          
-          members = []
-          for src_name, ar_name in families:
-              folder = source / src_name
-              chapters = sorted(folder.glob("*.md"))
-              if len(chapters) != 9:
-                  raise SystemExit(f"{src_name}: expected 9 Markdown chapters, found {len(chapters)}")
-              if any(p.is_symlink() for p in chapters):
-                  raise SystemExit(f"Symlink detected in {src_name}")
-              for chapter in chapters:
-                  members.append((chapter, f"{root}/{ar_name}/{chapter.name}"))
-          
-          if len(members) != 126:
-              raise SystemExit(f"Expected 126 chapters, found {len(members)}")
-          
-          readme = f"""# {root}
-          
-          نسخة مضغوطة من ملفات موسوعة الأوفاق والطلاسم.
-          
-          - العائلات: 14
-          - الفصول: 126 ملف Markdown (9 فصول لكل عائلة)
-          - الملفات النصية منقولة دون تعديل من فرع awfaq-talismans-encyclopedia.
-          - حالة العائلات: مسودات ما لم يصدر اعتماد صريح مستقل.
-          - استُبعد مجلد 05-amulets-talismans-hriz لأنه نسخة مكررة؛ اعتُمد مجلد 05-amulets-talismans.
-          """
-          
-          with ZipFile(archive, "w", compression=ZIP_DEFLATED, compresslevel=9) as zf:
-              zf.writestr(f"{root}/README.md", readme.encode("utf-8"))
-              for path, arcname in members:
-                  zf.write(path, arcname)
-          
-          with ZipFile(archive, "r") as zf:
-              bad = zf.testzip()
-              names = zf.namelist()
-              markdown = [n for n in names if n.lower().endswith(".md") and not n.endswith("/README.md")]
-              family_dirs = {n.split("/")[1] for n in markdown}
-              if bad:
-                  raise SystemExit(f"ZIP integrity failure at: {bad}")
-              if len(markdown) != 126 or len(family_dirs) != 14 or len(names) != 127:
-                  raise SystemExit(f"Verification mismatch: members={len(names)}, chapters={len(markdown)}, families={len(family_dirs)}")
-          
-          print(f"ARCHIVE={archive}")
-          print(f"SIZE_BYTES={archive.stat().st_size}")
-          print("FAMILIES=14")
-          print("CHAPTERS=126")
-          print("ZIP_TEST=PASS")
-          PY
+      - name: Generate HTML edition and verified ZIP
+        run: python3 projects/awfaq-talismans/build_html.py
 
-      - name: Upload verified archive
+      - name: Upload HTML website as ZIP
         uses: actions/upload-artifact@v4
         with:
-          name: awfaq-encyclopedia-zip
-          path: dist/موسوعة-الأوفاق-والطلاسم-14-عائلة.zip
+          name: awfaq-encyclopedia-html
+          path: projects/awfaq-talismans/dist/موسوعة-الأوفاق-والطلاسم-HTML.zip
           if-no-files-found: error
           retention-days: 30
