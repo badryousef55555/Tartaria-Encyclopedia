@@ -83,3 +83,17 @@
 - تظل الفصول التسعة مسودات، ولا تتحول إلى مواد معتمدة إلا بموافقة صريحة.
 
 ---
+
+
+## روابط الفصول المنجزة
+1. [تصنيف دعاوى الخوارق المرتبطة بالجفر](../volumes/11_extraordinary_claims/11_01_taxonomy_extraordinary_claims.md)
+2. [دعوى الكشف عن المجهول والأسرار المستورة](../volumes/11_extraordinary_claims/11_02_disclosure_hidden_knowledge.md)
+3. [دعوى الإخبار بالمستقبل وتحديد الوقائع](../volumes/11_extraordinary_claims/11_03_future_predictions.md)
+4. [دعوى معرفة الضمائر والأفكار والنوايا](../volumes/11_extraordinary_claims/11_04_minds_intentions_claims.md)
+5. [دعوى التأثير عن بُعد وتغيير الوقائع](../volumes/11_extraordinary_claims/11_05_remote_influence.md)
+6. [الاستحضار والرؤى والاتصال بالعوالم الخفية في الروايات](../volumes/11_extraordinary_claims/11_06_conjuration_visions_hidden_worlds.md)
+7. [الكرامات والقصص العجائبية المنسوبة إلى أهل الجفر](../volumes/11_extraordinary_claims/11_07_karamat_attributed_to_jafr_people.md)
+8. [معايير التحقق والتوثيق واستبعاد المصادفة والخداع](../volumes/11_extraordinary_claims/11_08_verification_deception_coincidence.md)
+9. [سجل دراسات الحالة ونتائج الفحص ودرجات الثبوت](../volumes/11_extraordinary_claims/11_09_case_registry_evidence_levels.md)
+
+**حالة التنفيذ:** أُنشئت الفصول التسعة وأعيد جلب كل ملف للتحقق من العنوان والمحتوى. تظل العائلة مسودة بحثية غير معتمدة، وفق حالة الفهرس، حتى الاعتماد الصريح.
