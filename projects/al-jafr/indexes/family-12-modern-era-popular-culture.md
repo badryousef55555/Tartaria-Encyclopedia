@@ -83,3 +83,17 @@
 - تظل الفصول التسعة مسودات، ولا تتحول إلى مواد معتمدة إلا بموافقة صريحة.
 
 ---
+
+
+## روابط الفصول المنجزة
+1. [تحولات صورة الجفر في العصر الحديث](../volumes/12_modern_popular_culture/12_01_modern_transformations.md)
+2. [الكتب المعاصرة المنسوبة إلى الجفر ومؤلفوها](../volumes/12_modern_popular_culture/12_02_contemporary_books_authors.md)
+3. [الجفر في الصحافة والمجلات والكتابات الشعبية](../volumes/12_modern_popular_culture/12_03_press_magazines_popular_writing.md)
+4. [الجفر في المواقع والمنصات الرقمية](../volumes/12_modern_popular_culture/12_04_web_platforms.md)
+5. [الفيديوهات والمحتوى المرئي وطرائق انتشاره](../volumes/12_modern_popular_culture/12_05_video_visual_media.md)
+6. [التطبيقات والحسابات الرقمية وتوليد التنبؤات](../volumes/12_modern_popular_culture/12_06_apps_calculators_predictions.md)
+7. [التنبؤات السياسية المعاصرة وإعادة تدوير النصوص](../volumes/12_modern_popular_culture/12_07_contemporary_political_predictions.md)
+8. [التسويق التجاري والدجل والمعلومات المضللة](../volumes/12_modern_popular_culture/12_08_commercialization_misinfo.md)
+9. [أرشفة المحتوى الحديث وتحليله ونقده](../volumes/12_modern_popular_culture/12_09_archiving_modern_content.md)
+
+**حالة التنفيذ:** أُنشئت الفصول التسعة وأعيد جلب كل ملف للتحقق من عنوانه ومحتواه. تظل العائلة مسودة بحثية غير معتمدة حتى الاعتماد الصريح.
