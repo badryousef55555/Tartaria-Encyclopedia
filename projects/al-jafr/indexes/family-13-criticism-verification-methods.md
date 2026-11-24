@@ -83,3 +83,17 @@
 - تظل الفصول التسعة مسودات، ولا تتحول إلى مواد معتمدة إلا بموافقة صريحة.
 
 ---
+
+
+## روابط الفصول المنجزة
+1. [مبادئ البحث التاريخي في موضوع الجفر](../volumes/13_criticism_verification/13_01_historical_research_principles.md)
+2. [نقد الأسانيد والرواة وطبقات النقل](../volumes/13_criticism_verification/13_02_isnad_transmitters_layers.md)
+3. [نقد المتون ومقارنة الروايات المتعارضة](../volumes/13_criticism_verification/13_03_matn_variants_contradictions.md)
+4. [منهج تحقيق المخطوطات والنصوص المنسوبة](../volumes/13_criticism_verification/13_04_manuscript_editing_method.md)
+5. [نقد النسبة والتأريخ وكشف الإضافات اللاحقة](../volumes/13_criticism_verification/13_05_attribution_dating_interpolations.md)
+6. [فلسفة التنبؤ والغيب وحدود المعرفة البشرية](../volumes/13_criticism_verification/13_06_prediction_epistemology_limits.md)
+7. [الإحصاء والاحتمالات والانحياز التأكيدي](../volumes/13_criticism_verification/13_07_statistics_probability_bias.md)
+8. [قابلية الاختبار والتكذيب والتوثيق المسبق](../volumes/13_criticism_verification/13_08_falsifiability_preregistration.md)
+9. [بروتوكول موحد لتقييم الادعاءات ودرجات الأدلة](../volumes/13_criticism_verification/13_09_unified_evidence_protocol.md)
+
+**حالة التنفيذ:** أُنشئت الفصول التسعة وأعيد جلب كل ملف للتحقق من عنوانه ومحتواه. تظل العائلة مسودة بحثية غير معتمدة حتى الاعتماد الصريح.
