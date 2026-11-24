@@ -106,7 +106,7 @@ def main():
             prev_link = f'<a href="../{prev[4]}">← الفصل السابق</a>' if prev else '<a href="../index.html">الفهرس الرئيسي</a>'
             next_link = f'<a href="../{nxt[4]}">الفصل التالي →</a>' if nxt else '<a href="../index.html">الفهرس الرئيسي</a>'
             nav = f'<div class="navrow">{prev_link}{next_link}</div>'
-            authored_body = f\'''<header class="hero"><div class="hero-inner"><div class="eyebrow">الفصل {n:02d} · العائلة {fi+1:02d}</div><h1>{escape(title)}</h1><p>{escape(fname)}</p><div class="meta"><span class="pill">بحث موثق</span><span class="pill">مسودة غير معتمدة</span><span class="pill">نسخة تحريرية موسعة</span></div></div></header><main class="shell"><nav class="breadcrumb"><a href="../index.html">الرئيسية</a> / <a href="../families/{slug}/index.html">{escape(fname)}</a> / الفصل {n:02d}</nav><section class="panel"><span class="status">محتوى بحثي أولي · يحتاج مراجعة علمية</span><div class="prose">{article}</div></section>{nav}</main>\'''
+            authored_body = f'''<header class="hero"><div class="hero-inner"><div class="eyebrow">الفصل {n:02d} · العائلة {fi+1:02d}</div><h1>{escape(title)}</h1><p>{escape(fname)}</p><div class="meta"><span class="pill">بحث موثق</span><span class="pill">مسودة غير معتمدة</span><span class="pill">نسخة تحريرية موسعة</span></div></div></header><main class="shell"><nav class="breadcrumb"><a href="../index.html">الرئيسية</a> / <a href="../families/{slug}/index.html">{escape(fname)}</a> / الفصل {n:02d}</nav><section class="panel"><span class="status">محتوى بحثي أولي · يحتاج مراجعة علمية</span><div class="prose">{article}</div></section>{nav}</main>'''
             (OUT/rel).write_text(page(title, authored_body), encoding="utf-8")
 
     cards=[]
