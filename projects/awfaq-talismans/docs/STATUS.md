@@ -52,3 +52,11 @@
 - الفهرس: `projects/awfaq-talismans/indexes/06-names-symbols-seals.md`
 - الاعتماد: غير معتمد؛ ينتظر مراجعة المستخدم.
 - ملاحظة: لا يمثل ذلك تحقيقاً مخطوطاتياً أو فهرسة أثرية نهائية.
+
+
+## العائلة السابعة: الكوسمولوجيا والمراسلات الكونية
+- الحالة: اكتملت المسودة الأولية للفصول التسعة.
+- المسار: `projects/awfaq-talismans/volumes/07-cosmology-correspondences/`
+- الفهرس: `projects/awfaq-talismans/indexes/07-cosmology-correspondences.md`
+- الاعتماد: غير معتمد؛ ينتظر مراجعة المستخدم.
+- ملاحظة: لا يمثل ذلك تحقيقاً مخطوطاتياً أو حسمًا علمياً نهائياً.
