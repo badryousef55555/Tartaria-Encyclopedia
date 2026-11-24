@@ -60,3 +60,11 @@
 - الفهرس: `projects/awfaq-talismans/indexes/07-cosmology-correspondences.md`
 - الاعتماد: غير معتمد؛ ينتظر مراجعة المستخدم.
 - ملاحظة: لا يمثل ذلك تحقيقاً مخطوطاتياً أو حسمًا علمياً نهائياً.
+
+
+## العائلة الثامنة: التقاليد الحضارية المقارنة
+- الحالة: اكتملت المسودة الأولية للفصول التسعة.
+- المسار: `projects/awfaq-talismans/volumes/08-comparative-civilizations/`
+- الفهرس: `projects/awfaq-talismans/indexes/08-comparative-civilizations.md`
+- الاعتماد: غير معتمد؛ ينتظر مراجعة المستخدم.
+- ملاحظة: لا يمثل ذلك حصرًا أثرياً شاملاً أو تحقيقاً مخطوطاتياً نهائياً.
