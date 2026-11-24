@@ -1,0 +1,31 @@
+name: Build Maya Civilization HTML Encyclopedia
+on:
+  push:
+    branches:
+      - maya-civilization-encyclopedia
+    paths:
+      - 'projects/maya-civilization/**'
+      - '.github/workflows/build-maya-encyclopedia.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build HTML edition and validate archive
+        run: python projects/maya-civilization/build_html.py
+      - name: Upload complete HTML archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: maya-civilization-html
+          path: projects/maya-civilization/dist/موسوعة-حضارة-المايا-HTML.zip
+          if-no-files-found: error
+          retention-days: 30
