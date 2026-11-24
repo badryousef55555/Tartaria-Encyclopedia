@@ -93,6 +93,20 @@ def main():
         body=f'''<header class="hero"><div class="hero-inner"><div class="eyebrow">الفصل {n:02d} · العائلة {fi+1:02d}</div><h1>{escape(title)}</h1><p>{escape(fname)}</p><div class="meta"><span class="pill">ملف HTML مستقل</span><span class="pill">مسودة بحثية</span><span class="pill">غير معتمد</span></div></div></header><main class="shell"><nav class="breadcrumb"><a href="../index.html">الرئيسية</a> / <a href="../families/{slug}/index.html">{escape(fname)}</a> / الفصل {n:02d}</nav><section class="panel"><span class="status">قيد التأليف والتحقيق</span><h2>نطاق الفصل</h2><div class="prose"><p>{escape(FAMILY_CONTEXT[fi])}</p><p>يعالج هذا الفصل موضوع «{escape(title)}» ضمن التسلسل التاريخي لحضارة المايا، ويربطه بالسياق الإقليمي والزمني والاجتماعي. لا تُقبل الاستنتاجات إلا بقدر ما تسنده الأدلة المنشورة أو الشواهد الأولية القابلة للفحص.</p></div></section><section class="panel"><h2>أسئلة التحقيق العلمي</h2><ol>{"".join(f"<li>{escape(q)}</li>" for q in questions)}</ol></section><section class="panel"><h2>محاور المعالجة</h2><ul><li>تحديد المصطلحات والنطاق الزمني والجغرافي.</li><li>عرض الأدلة الأثرية أو النصية أو البيئية ذات الصلة.</li><li>مقارنة التفسيرات الأكاديمية وتحديد مواضع الاتفاق والاختلاف.</li><li>تمييز الحقائق المدعومة من الفرضيات والقراءات غير المحسومة.</li><li>خلاصة تركيبية مع توثيق المراجع الأولية والدراسات الحديثة.</li></ul></section><section class="panel"><h2>ضوابط التوثيق والتحرير</h2><div class="callout">لا يُعد هذا الملف فصلًا نهائيًا أو بحثًا مكتملًا. هذه نسخة تحريرية منظمة لبدء التأليف والتحقيق. يجب إدراج إحالات دقيقة إلى المصادر الأصلية والدراسات المحكمة قبل تغيير حالة الفصل إلى «مكتمل» أو «معتمد».</div><p class="muted">مصادر الاستدلال المتوقعة بحسب موضوع الفصل: تقارير الحفريات، قواعد بيانات النقوش، مجموعات المخطوطات، الدراسات المحكمة، التحليلات البيئية، ومصادر المجتمعات الماياوية المعاصرة عند تناول التراث الحي.</p></section><div class="navrow">{f'<a href="../{prev[4]}">← الفصل السابق</a>' if prev else '<a href="../index.html">الفهرس الرئيسي</a>'}{f'<a href="../{nxt[4]}">الفصل التالي →</a>' if nxt else '<a href="../index.html">الفهرس الرئيسي</a>'}</div></main>'''
         (OUT/rel).write_text(page(title,body),encoding="utf-8")
 
+    # Replace the first family's research briefs with authored, source-linked chapter text.
+    authored_path = ROOT / "authored_chapters.json"
+    if authored_path.exists():
+        authored = json.loads(authored_path.read_text(encoding="utf-8"))
+        for key, article in authored.items():
+            n = int(key)
+            record = all_chapters[n-1]
+            _, title, fname, slug, rel, fi, ci = record
+            prev = all_chapters[n-2] if n > 1 else None
+            nxt = all_chapters[n] if n < len(all_chapters) else None
+            nav = f'<div class="navrow">{f"<a href=\\"../{prev[4]}\\">← الفصل السابق</a>" if prev else "<a href=\\"../index.html\\">الفهرس الرئيسي</a>"}{f"<a href=\\"../{nxt[4]}\\">الفصل التالي →</a>" if nxt else "<a href=\\"../index.html\\">الفهرس الرئيسي</a>"}</div>'
+            authored_body = f\'''<header class="hero"><div class="hero-inner"><div class="eyebrow">الفصل {n:02d} · العائلة {fi+1:02d}</div><h1>{escape(title)}</h1><p>{escape(fname)}</p><div class="meta"><span class="pill">بحث موثق</span><span class="pill">مسودة غير معتمدة</span><span class="pill">نسخة تحريرية موسعة</span></div></div></header><main class="shell"><nav class="breadcrumb"><a href="../index.html">الرئيسية</a> / <a href="../families/{slug}/index.html">{escape(fname)}</a> / الفصل {n:02d}</nav><section class="panel"><span class="status">محتوى بحثي أولي · يحتاج مراجعة علمية</span><div class="prose">{article}</div></section>{nav}</main>\'''
+            (OUT/rel).write_text(page(title, authored_body), encoding="utf-8")
+
     cards=[]
     for fi,(slug,fname,titles) in enumerate(FAMILIES):
         cards.append(f'<a class="family-card" href="families/{slug}/index.html"><div><span class="num">{fi+1:02d}</span><strong>{escape(fname)}</strong></div><p class="muted">الفصول {fi*9+1}–{fi*9+9} · 9 فصول</p><span class="status">مسودة</span></a>')
