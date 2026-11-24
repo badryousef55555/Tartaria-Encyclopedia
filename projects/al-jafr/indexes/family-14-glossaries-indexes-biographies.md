@@ -83,3 +83,24 @@
 - تظل الفصول التسعة مسودات، ولا تتحول إلى مواد معتمدة إلا بموافقة صريحة.
 
 ---
+
+
+## روابط الفصول المنجزة
+1. [معجم مصطلحات الجفر والعلوم المتصلة به](../volumes/14_reference_tools/14_01_jafr_terminology_glossary.md)
+2. [معجم الأعلام والمؤلفين المنسوبة إليهم النصوص](../volumes/14_reference_tools/14_02_persons_authors_attributions.md)
+3. [معجم الرواة والناقلين والمحققين](../volumes/14_reference_tools/14_03_transmitters_copyists_editors.md)
+4. [دليل الكتب والرسائل والنصوص الجفرية](../volumes/14_reference_tools/14_04_jafr_books_texts_bibliography.md)
+5. [دليل المخطوطات والمكتبات ومواقع الحفظ](../volumes/14_reference_tools/14_05_manuscripts_libraries_locations.md)
+6. [معجم الأماكن والأقاليم ومراكز تداول النصوص](../volumes/14_reference_tools/14_06_places_regions_transmission.md)
+7. [الخط الزمني للأحداث والمؤلفات والشواهد](../volumes/14_reference_tools/14_07_chronology_events_works_witnesses.md)
+8. [الفهارس الموضوعية واللفظية والعددية](../volumes/14_reference_tools/14_08_subject_word_numeric_indexes.md)
+9. [قواعد البيانات والخرائط والملحقات المرجعية](../volumes/14_reference_tools/14_09_databases_maps_reference_appendices.md)
+
+## مراجع إرشادية لبناء أدوات الفهرسة
+- MIT Libraries, *Early Arabic Sources for the History of Islam*، بوابة للمصادر التاريخية والتراجم والجغرافيا: https://libguides.mit.edu/arabicsources
+- U.S. National Library of Medicine, *A Note on Biographical Dictionaries*: https://www.nlm.nih.gov/hmd/arabic/note_biographical.html
+- UCLA Library, *Middle Eastern Studies: Reference Sources*: https://guides.library.ucla.edu/mideast/referencesources
+- Maxim Romanov, “Algorithmic Analysis of Medieval Arabic Biographical Collections,” *Speculum* 92, Supplement 1 (2017), DOI: 10.1086/693970.
+- University of Michigan Library, *Islamic Manuscript Studies: Bibliographical Resources*: https://guides.lib.umich.edu/islamicmsstudies/bibres
+
+**حالة التنفيذ:** أُنشئت الفصول التسعة وأعيد جلب كل ملف للتحقق من عنوانه ومحتواه. العائلة مسودة بحثية غير معتمدة؛ وبناء قواعد البيانات الفعلية وفهرسة المخطوطات يتطلبان إدخال سجلات موثقة ومراجعتها، ولا يعني هذا الفصل اكتمال تلك العمليات.
