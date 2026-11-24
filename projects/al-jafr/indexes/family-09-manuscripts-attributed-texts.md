@@ -67,6 +67,19 @@
 - **إجراءات التحقق:** توثيق المؤلف والنسبة والتاريخ والموضع؛ التمييز بين تاريخ النص وتاريخ النسخة؛ مقابلة الشواهد المستقلة؛ عدم الاستدلال بالتشابه وحده؛ تسجيل ما لا يمكن التحقق منه.
 - **مخرج الفصل:** دراسة موثقة، وجدول للشواهد والآراء، وقائمة بالمسائل المفتوحة ودرجة الثقة في كل نتيجة.
 
+## روابط الفصول المنجزة
+1. [خريطة المخطوطات والفهارس ذات الصلة بالجفر](../volumes/09_manuscripts_attributed_texts/09_01_manuscript_map_and_catalogues.md)
+2. [عناوين الكتب الجفرية وتنوع صيغها](../volumes/09_manuscripts_attributed_texts/09_02_titles_and_variants.md)
+3. [دراسة النسخ الخطية ووصفها المادي](../volumes/09_manuscripts_attributed_texts/09_03_codicology_physical_description.md)
+4. [النسبة إلى المؤلفين ومناهج إثباتها](../volumes/09_manuscripts_attributed_texts/09_04_attribution_methods.md)
+5. [النساخ والتملكات والسماعات والإجازات](../volumes/09_manuscripts_attributed_texts/09_05_copyists_ownership_auditions.md)
+6. [النصوص المجهولة والمختصرة والمركبة](../volumes/09_manuscripts_attributed_texts/09_06_anonymous_compound_texts.md)
+7. [مقابلة النسخ وضبط الفروق والتحريفات](../volumes/09_manuscripts_attributed_texts/09_07_collation_variants.md)
+8. [الطبعات الحديثة والتحقيقات ومشكلاتها](../volumes/09_manuscripts_attributed_texts/09_08_modern_editions_critique.md)
+9. [بناء سجل ببليوغرافي نقدي للنصوص والشواهد](../volumes/09_manuscripts_attributed_texts/09_09_critical_bibliography.md)
+
+**حالة التنفيذ:** أُنشئت الفصول التسعة في ملفات مستقلة وأعيد جلبها للتحقق من العنوان والمحتوى. تظل الصياغة مسودة بحثية تأسيسية، ولا تعني معاينة جميع النسخ أو اكتمال التحقيق المخطوطاتي.
+
 ## قالب التوثيق الإلزامي
 1. إحالة كاملة إلى المصدر والطبعة أو رقم حفظ المخطوط.
 2. موضع دقيق للاستشهاد: الجزء والصفحة أو الورقة والوجه.
