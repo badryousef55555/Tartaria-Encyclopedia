@@ -116,3 +116,5 @@ def main():
     print(f"SUCCESS: 126 chapter HTML pages, 14 family indexes, 1 master index; ZIP_TEST=PASS; bytes={archive.stat().st_size}")
 
 if __name__=="__main__": main()
+
+# Rebuild trigger: publish HTML edition workflow.
